@@ -45,3 +45,14 @@
 .buttons :hover {
     background-color: #7af59d;
 }
+
+.admin-login{
+    /* at the far end of the page: */
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    font-size: 12px;
+    color: #cfcfcf;
+    text-decoration: none;
+}

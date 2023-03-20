@@ -8,6 +8,8 @@ const Check_in = () => {
         <div className="phone-number">
           <label>Phone Number:</label>
           <input type="number" placeholder="Phone Number" />
+
+          
         </div>
       </div>
     </>
