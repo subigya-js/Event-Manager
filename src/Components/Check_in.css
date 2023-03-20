@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.check-in {
+    display: grid;
+    place-items: center;
+}
+
+.phone-number {
+    width: 60vw;
+    height: 60vh;
+    background-color: rgb(95, 70, 41);
+}
+
+.check-in input {
+    width: 20vw;
+}

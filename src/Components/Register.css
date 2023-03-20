@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.register-form {
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #313233;
+    display: grid;
+    place-items: center;
+}
+
+.form-heading {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form {
+    background-color: #717070;
+    border-radius: 7px;
+    height: 60vh;
+    width: 40vw;
+}
+
+.txt-field input {
+    border: none;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 7px 10px;
+}
+
+.photo-field {
+    display: grid;
+    gap: 5px;
+    padding: 7px 10px;
+}
+
+.photo-input {
+    font-size: 8px;
+    cursor: pointer;
+}
+
+.photo-title {
+    font-size: 8px;
+}
+
+::placeholder {
+    font-size: 8px;
+}
+
+.btn {
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 7px 10px;
+    padding: 3px;
+    width: 50px;
+    border-radius: 4px;
+}
