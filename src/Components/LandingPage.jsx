@@ -42,6 +42,16 @@ const LandingPage = () => {
           >
             Check-in
           </a>
+
+          <a
+            className="admin-login"
+            onClick={() => {
+              navigate("/admin-login");
+            }}
+            name="Admin Login"
+          >
+            Admin Login
+          </a>
         </div>
       </div>
     </>
