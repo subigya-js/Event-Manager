@@ -1,15 +1,11 @@
 import React from "react";
 import "./Check_in.css";
+import Phone from "./Check_In_Components/Phone";
 
 const Check_in = () => {
   return (
     <>
-      <div className="check-in">
-        <div className="phone-number">
-          <label>Phone Number:</label>
-          <input type="number" placeholder="Phone Number" />
-        </div>
-      </div>
+      <Phone />
     </>
   );
 };

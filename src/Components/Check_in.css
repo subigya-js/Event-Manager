@@ -10,6 +10,8 @@
 }
 
 .phone-number {
+    display: flex;
+    flex-direction: column;
     width: 60vw;
     height: 60vh;
     background-color: rgb(95, 70, 41);
@@ -17,4 +19,9 @@
 
 .check-in input {
     width: 20vw;
+}
+
+.next {
+    width: 45px;
+    font-size: 10px;
 }
