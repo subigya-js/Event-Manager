@@ -1,0 +1,8 @@
+{
+    "flask": {
+        "image": ":faceapiv-service.faceapiv-container.5",
+        "ports": {
+            "5000": "HTTP"
+        }
+    }
+}
