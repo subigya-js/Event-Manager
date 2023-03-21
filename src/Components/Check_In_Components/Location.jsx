@@ -1,7 +1,10 @@
 import React from "react";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const Location = () => {
-  let check = 0;
+  const navigate = useNavigate();
+
+  // let check = 0;
   const targetLat = 28.598276000000002;
   const targetLng = 77.39058700000001;
   // Check if the browser supports geolocation
@@ -18,10 +21,12 @@ const Location = () => {
 
         // Check if the user is within 5 kilometers of the target location
         if (distance <= 500) {
-          check = 1;
+          // check = 1;
           console.log("User is within the target location");
+
+          navigate("/camera");
         } else {
-          check = 0;
+          // check = 0;
           console.log("User is not within the target location");
         }
       },

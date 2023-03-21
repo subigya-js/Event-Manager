@@ -5,23 +5,9 @@ import { useNavigate } from "react-router-dom";
 const LandingPage = () => {
   const navigate = useNavigate();
 
-  // const clickBtn = (event) => {
-  //   const btnName = event.target.name;
-
-  //   if (btnName == "register") {
-  //   }
-
-  //   if (btnName == "check-in") {
-  //   }
-  // };
-
   return (
     <>
       <div className="landing-page">
-        <h3 className="title">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit .
-        </h3>
-
         <div className="buttons">
           <a
             className="register"

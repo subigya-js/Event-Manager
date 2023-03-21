@@ -27,6 +27,7 @@
     left: 50%;
     margin: -30px 0 0 -30px;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .register {
@@ -42,6 +43,39 @@
     cursor: pointer;
 }
 
+.check-in {
+    background-color: #bfbc8c;
+    color: #313233;
+    font-size: 12px;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .buttons :hover {
-    background-color: #7af59d;
+    background-color: #395340;
+    color: #cfcfcf;
+}
+
+@media (max-width: 400px){
+    .title{
+        padding: 2rem;
+        font-size: 1.2rem;
+        width: 20rem;
+    }
+
+    .buttons {
+        margin-top: 5rem;
+        margin-left: 3px;
+        display: grid;
+        gap: 3rem;
+    }
+
+    .buttons a{
+        width: 9rem;
+        height: 3rem;
+        text-align: center;
+        font-size: 1.5rem;
+        padding-top: 0.4em;
+    }
 }

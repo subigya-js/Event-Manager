@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.phone_number {
+    /* background-color: aquamarine;
+     */
+    /* padding-top: -10px; */
+    /* height: 50vh; */
+    background-color: #313233;
+
+}
+
+.check_in {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 50vh;
+    background-color: #313233;
+    border: none;
+    gap: 0px;
+}
+
+.qr {
+    background-color: #313233;
+    border: none;
+    height: 50vh;
+}
+
+.phone-number {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-number label {
+    font-size: 12px;
+    color: #cfcfcf;
+}
+
+.check_in input {
+    border: none;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 5px 0;
+}
+
+.below-buttons {
+    /* background-color: aquamarine; */
+    overflow: hidden;
+}
+
+.below-buttons button {
+    margin-top: 0px;
+    width: 50px;
+    border: none;
+    background-color: #bfbc8c;
+    color: #313233;
+    font-size: 10px;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 20px;
+}
+
+.photo-title {
+    margin-top: 25px;
+    color: #cfcfcf;
+    font: 12px;
+}
+
+
+@media (max-width: 550px) {
+    .phone-number label {
+        font-size: 1.2rem;
+        margin-top: -5rem;
+    }
+
+    .phone-number input {
+        height: 2rem;
+        margin-top: 1rem;
+    }
+
+    ::placeholder {
+        font-size: 0.7rem;
+    }
+
+    .below-buttons button {
+        width: 5rem;
+        margin-top: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+        font-weight: 900;
+    }
+}
